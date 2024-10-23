@@ -8,7 +8,7 @@ random.shuffle(deck)
 p1_deck=deck[:27]
 p2_deck=deck[27:]
 def comparaison(p1_deck,p2_deck):
-    if ranks.index(p1_deck[0])> ranks.index(p2_deck[0]):
+    if ranks.index(p1_deck[0]) == ranks.index(p2_deck[0]):
         return 0
     elif ranks.index(p1_deck[0])> ranks.index(p2_deck[0]):
         return 1
